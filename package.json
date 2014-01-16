@@ -1,0 +1,54 @@
+{
+  "name": "connect-rid",
+  "version": "0.0.0",
+  "description": "connect-rid",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "config": {
+    "blanket": {
+      "pattern": "connect-rid/lib",
+      "data-cover-flags": {
+        "debug": false
+      }
+    },
+    "travis-cov": {
+      "threshold": 100
+    }
+  },
+  "dependencies": {
+    "rid": "0.0.1"
+  },
+  "devDependencies": {
+    "autod": "*",
+    "blanket": "*",
+    "connect": "2.12.0",
+    "contributors": "*",
+    "cov": "*",
+    "coveralls": "*",
+    "mocha": "*",
+    "mocha-lcov-reporter": "*",
+    "should": "2.1.1",
+    "supertest": "0.8.3",
+    "travis-cov": "*"
+  },
+  "homepage": "https://github.com/fengmk2/connect-rid",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fengmk2/connect-rid.git",
+    "web": "https://github.com/fengmk2/connect-rid"
+  },
+  "bugs": {
+    "url": "https://github.com/fengmk2/connect-rid/issues",
+    "email": "fengmk2@gmail.com"
+  },
+  "keywords": [
+    "connect-rid"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
+  "license": "MIT"
+}
