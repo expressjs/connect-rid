@@ -7,7 +7,7 @@ connect-rid
 
 ![logo](https://raw.github.com/fengmk2/connect-rid/master/logo.png)
 
-connect-rid desc
+connect request id middleware, base on [rid](https://github.com/fengmk2/rid).
 
 ## Install
 
@@ -18,11 +18,11 @@ $ npm install connect-rid
 ## Usage
 
 ```js
-var connect-rid = require('connect-rid');
+var rid = require('connect-rid');
 
-connect-rid.foo(function (err) {
-
-});
+app.use(rid({
+  // headerName: 'X-RID'
+}));
 ```
 
 ## License
